@@ -1,0 +1,13 @@
+.pageup{
+    z-index: 3;
+    display: none;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom:40px;
+    right: 40px;
+    i{
+        font-size: 40px;
+        color: $main-color;
+    }
+}

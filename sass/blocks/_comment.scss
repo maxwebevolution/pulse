@@ -1,0 +1,44 @@
+.comment{
+    padding-bottom: 70px;
+    &__block{
+        margin-top: 50px;
+        &:nth-child(2){
+            margin-top: 70px;
+        }
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        img{
+            width: 171px;
+            height: 171px;
+        }
+    }
+    &__text{
+        margin-left: 60px;
+        text-align: left;
+    }
+    &__name{
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 700;
+        color: #0D0D0D;
+    }
+    &__subtitle{
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 10px;
+        font-weight: 300;
+        color: #646464;
+    }
+    &__descr{
+        margin-top: 19px;
+        font-size: 16px;
+        font-weight: 300;
+        color: #0D0D0D;
+    }
+    hr{
+        border: 1px solid rgba(246, 246, 246, 1);
+        border-bottom: none;
+        margin: 48px 0px 39px 0px;
+    }
+}
